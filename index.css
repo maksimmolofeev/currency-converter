@@ -1,0 +1,54 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+  
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+  
+.body {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.container{
+    width: 530px;
+    height: 220px;
+    padding: 10px ;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(165, 185, 185);
+}
+
+.working_field {
+    display: flex;
+}
+
+.input_rubles {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border-radius: 10px;
+    line-height: 50px;
+    text-align: center;
+    background-color: aqua;
+    border: #ffffff;
+}
+
+.btn {
+    width: 150px;
+    height: 20px;
+    margin-bottom: 50px;
+}
+
+.currency_field {
+    width: 150px;
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 10px;
+    line-height: 50px;
+    text-align: center;
+    background-color: aqua;
+}
+
