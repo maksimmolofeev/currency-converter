@@ -10,32 +10,26 @@
 <body>
     <div class="container">
         <h1>Конвертор валют</h1>
-        <div class="working_field">
-            <div class="block_currency">
-                <h2>рубли</h2>
-                <div class="currency_field">
-                    <div class="ruble_field">
-                        <p><input type="number" class="input_rubles"></p>
-                        <button class="btn">Применить</button>
-                    </div>
-                </div>
+        <div class="block_currency">
+            <div>
+                <h2>Рубли</h2>
+                <select name="currency" id="currency" class="select">
+                    <option value="рубли">Рубли</option>
+                    <option value="доллары">Доллары</option>
+                    <option value="евро">Евро</option>
+                    <option value="лиры">Лиры</option>
+                </select>
             </div>
-
-            <div class="block_currency">
-                <h2>доллары</h2>
-                <div class="currency_field">
-                    <div class="dollar_field">0</div>
-                </div>
-            </div>
-
-            <div class="block_currency">
-                <h2>лиры</h2>
-                <div class="currency_field">
-                    <div class="lyre_field">0</div>
-                </div>
-            </div>
+            <p><input type="number" class="input_rubles"></p>
         </div>
-        <script src="index.js"></script>
+
+        <button class="btn">Применить</button>
+        
+        <div class="working_field">
+
+        </div>
+        
     </div>
+    <script src="index.js"></script>
 </body>
 </html>
